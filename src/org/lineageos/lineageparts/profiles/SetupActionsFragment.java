@@ -421,7 +421,7 @@ public class SetupActionsFragment extends SettingsPreferenceFragment
         // wifi hotspot
             // try to force on bc we love wifi hotspots!
         profile.setConnectionSettings(
-                new ConnectionSettings(ConnectionSettings.PROFILE_CONNECTION_WIFIAP, true, true));
+                new ConnectionSettings(ConnectionSettings.PROFILE_CONNECTION_WIFIAP, 1, true));
 
         // 2g/3g/4g
         // skipping this one
